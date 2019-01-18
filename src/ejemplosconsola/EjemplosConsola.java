@@ -12,13 +12,13 @@ import java.util.Arrays;
 public class EjemplosConsola {
     //Declaro un array de ints de instancia 
     int[]listaNumeros ={200, 31, 27, 2, 5, 99};
-    int[]listaNumeros4 = {-5, -5, -200, -10, -60, -400}
+    
    
      //El metodo maximo va a calcular el maximo y el segundo maximo de la lista de numero
     private int[] maximos (int[] lista){
         //declaramos un array de dos elementos para guardar el maximo y el segundo máximo
         int [] listaMaximos = {lista[0], lista[0]};
-        for(int i=0; i< lista.length; i++){
+        for(int i=1; i< lista.length; i++){
             if (listaMaximos[0] <= lista[i]){
                 //si llega aqui es que el numero que estoy comparando 
                 //es mayor o igual que el que tengo primero  en la lista de maximos 
